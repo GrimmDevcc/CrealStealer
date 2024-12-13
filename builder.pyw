@@ -3,11 +3,10 @@ import shutil
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import requests
-
+os.system("img/xd.ico fetchimage pyreadimage")
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
 app.title(f"Creal Builder")
-app.iconbitmap("img\\xd.ico")
 app.geometry("400x240")
 app.resizable(False, False)
 
